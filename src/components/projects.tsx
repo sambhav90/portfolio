@@ -41,8 +41,7 @@ export default function Projects (){
                 <div className="mt-6 flex justify-between">
                   <a
                     href="#"
-                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
-                  >
+                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"                  >
                     Live Demo
                   </a>
                   <a
