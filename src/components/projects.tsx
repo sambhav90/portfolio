@@ -58,7 +58,7 @@ export default function Projects (){
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/image/project2.jpg"
+                  src="/image/project2.png"
                   alt="Project 2"
                   layout="fill"
                   objectFit="cover"
@@ -101,7 +101,7 @@ export default function Projects (){
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/image/project3.jpg"
+                  src="/image/project3.png"
                   alt="Project 3"
                   layout="fill"
                   objectFit="cover"
