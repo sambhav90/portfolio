@@ -26,7 +26,7 @@ export default function Header (){
                     
                     {/* Resume Button */}
                     <a 
-                      href="/resume.pdf" 
+                      href="https://drive.google.com/file/d/1tsRUC5NzL1qewnI5euds4GiBDug89RI4/view?usp=sharing" 
                       target="_blank"
                       className="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md transition duration-300"
                     >
@@ -59,7 +59,7 @@ export default function Header (){
                       <a href="#skills" className="block text-gray-600 dark:text-gray-300" onClick={() => setIsMenuOpen(false)}>Skills</a>
                       <a href="#contact" className="block text-gray-600 dark:text-gray-300" onClick={() => setIsMenuOpen(false)}>Contact</a>
                       <a 
-                        href="/resume.pdf" 
+                        href="https://drive.google.com/file/d/1tsRUC5NzL1qewnI5euds4GiBDug89RI4/view?usp=sharing" 
                         target="_blank"
                         className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md transition duration-300"
                       >

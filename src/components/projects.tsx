@@ -12,49 +12,9 @@ export default function Projects (){
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project Card 1 */}
-            <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
-              <div className="relative h-48 w-full">
-                <Image
-                  src="/project1.jpg"
-                  alt="Project 1"
-                  layout="fill"
-                  objectFit="cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white">E-Commerce Platform</h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-400 capitalize">
-                  A full-stack e-commerce solution with Next.js, Redux, and Stripe integration.
-                </p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
-                    Next.js
-                  </span>
-                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
-                    Redux
-                  </span>
-                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
-                    Stripe
-                  </span>
-                </div>
-                <div className="mt-6 flex justify-between">
-                  <a
-                    href="#"
-                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="#"
-                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
-                  >
-                    Source Code
-                  </a>
-                </div>
-              </div>
-            </div>
+            
 
-            {/* Project Card 2 */}
+            {/* Project Card 1 */}
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
               <div className="relative h-48 w-full">
                 <Image
@@ -97,7 +57,7 @@ export default function Projects (){
               </div>
             </div>
 
-            {/* Project Card 3 */}
+            {/* Project Card 2 */}
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
               <div className="relative h-48 w-full">
                 <Image
@@ -132,6 +92,48 @@ export default function Projects (){
                   </a>
                   <a
                     href="https://github.com/sambhav90/dashboard"
+                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project Card 3 */}
+            <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-2xl">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/image/project1.png"
+                  alt="Project 1"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white">E-Commerce Platform</h3>
+                <p className="mt-2 text-gray-600 dark:text-gray-400 capitalize">
+                  A full-stack e-commerce solution with Next.js, Redux, and Stripe integration.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
+                    Next.js
+                  </span>
+                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
+                    3rd Party API Integration
+                  </span>
+                </div>
+                <div className="mt-6 flex justify-between">
+                  <a
+                    href="https://jeloxio-git-main-sambhav90s-projects.vercel.app/" target='_blank'
+                    className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/sambhav90/jeloxio" target='_blank'
                     className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
                   >
                     Source Code
