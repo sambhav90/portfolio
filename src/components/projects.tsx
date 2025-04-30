@@ -111,7 +111,7 @@ export default function Projects (){
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white">E-Commerce Platform</h3>
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white">website</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400 capitalize">
                   {/* A full-stack e-commerce solution with Next.js, Redux, and Stripe integration. */}
                   A News website that provides the latest news and articles on various topics.
