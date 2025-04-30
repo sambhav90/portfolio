@@ -113,7 +113,8 @@ export default function Projects (){
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white">E-Commerce Platform</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400 capitalize">
-                  A full-stack e-commerce solution with Next.js, Redux, and Stripe integration.
+                  {/* A full-stack e-commerce solution with Next.js, Redux, and Stripe integration. */}
+                  A News website that provides the latest news and articles on various topics.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-md dark:bg-indigo-900 dark:text-indigo-200">
